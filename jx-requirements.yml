@@ -22,7 +22,7 @@ spec:
     repository: cluster-11
   - key: staging
   ingress:
-    domain: 192.168.29.42,2405:201:4015:3077:d953:62be:40f6:6f63.nip.io
+    domain: 192.168.29.42.nip.io
     ignoreLoadBalancer: true
     kind: ingress
     namespaceSubDomain: .jx.
